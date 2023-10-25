@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         int kg = 98; // Масса тела, кг.
         double m = 1.87; // Длинна тела, м.
-        double bmiIndex = service.calculate(kg, m); // должно получиться 28
+        Double bmiIndex = service.calculate(kg, m); // должно получиться 28
         System.out.println(bmiIndex);
 
 
@@ -12,6 +12,7 @@ public class Main {
 
         System.out.println("кг. 54, м. 1.67");
         System.out.println(service.calculate(54, 1.67));
+
 
 
     }
